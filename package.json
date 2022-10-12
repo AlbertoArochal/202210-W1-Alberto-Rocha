@@ -1,0 +1,14 @@
+{
+    "name": "week1_project",
+    "version": "1.0.0",
+    "description": "ISDI Coders Bootcamp week 1 project",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Alberto Rocha",
+    "license": "ISC",
+    "prettier": {
+        "singleQuote": true
+    }
+}
