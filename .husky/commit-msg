@@ -1,5 +1,5 @@
-#!/usr/bin/env sh
-. "$(dirname -- "$0")/_/husky.sh"
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
 
 while read line; do
     # Skip comments
@@ -13,5 +13,3 @@ while read line; do
 done < "${1}"
 
 exit 0
-
-commit-msg
